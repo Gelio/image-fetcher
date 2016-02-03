@@ -25,8 +25,6 @@ app.get('/image/:query', function(req, res) {
     if(offset)
         requestOptions.path += '&$skip=' + (offset > 0 ? offset : 0);
 
-    console.log('starting request', requestOptions);
-
     var apiRequest = https.request(requestOptions, function(apiRes) {
         var jsonString = "";
         apiRes.setEncoding('utf8');
