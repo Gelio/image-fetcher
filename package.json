@@ -1,0 +1,24 @@
+{
+  "name": "image-fetcher",
+  "version": "1.0.0",
+  "description": "Node server that provides JSON results for image searches",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gelio/image-fetcher.git"
+  },
+  "author": "Grzegorz Rozdzialik <voreny.gelio@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gelio/image-fetcher/issues"
+  },
+  "homepage": "https://github.com/Gelio/image-fetcher#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "kerberos": "0.0.18",
+    "mongodb": "^2.1.4"
+  }
+}
